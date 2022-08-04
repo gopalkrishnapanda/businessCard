@@ -3,8 +3,8 @@ export default function Content(){
     return(
         <div>
             <div className="follow">
-                <button>EMAIL</button>
-                <button>LINKEDIN</button>
+                <button className="email-btn">EMAIL</button>
+                <button className="linkedin-btn">LINKEDIN</button>
             </div>
             <div className="main-content">
                 <h1>About</h1>

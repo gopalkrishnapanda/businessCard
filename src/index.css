@@ -26,6 +26,7 @@ header {
 .role{
   padding: 1px 0px;
   font-size: large;
+  color: brown;
 }
 .mail{
   padding: 1px 0px;
@@ -40,10 +41,32 @@ header {
 button{
   height: 6vh;
   width: 43vw;
-  background-color: #6e8d99;
   color: white;
+  background: #297FE5;
   border-style: none;
+}
+.email-btn{
+  background-color: #dddddddb;
+  color:black;
+  border: 1px solid #D1D5DB;
 }
 .main-content > p{
   font-family: 'Saira', sans-serif;
+  font-weight: bold;
+}
+.main-content{
+  padding :0vh 2vw 3vh 4vw;
+  background: white;
+}
+footer > img {
+  height: 5vh;
+  width: 8vw;
+}
+footer {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+  background-color:#D5D4D8;
 }
